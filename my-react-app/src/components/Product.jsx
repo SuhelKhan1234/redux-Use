@@ -18,7 +18,7 @@ const Product = ({post}) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-between 
+    <div className="flex flex-col items-center justify-between shadow-lg hover:shadow-2xl 
     hover:scale-110 transition duration-300 ease-in gap-3 p-4 mt-10 ml-5 rounded-xl outline">
       <div>
         <p className="text-gray-700 font-semibold text-lg text-left truncate w-40 mt-1">{post.title}</p>
@@ -40,7 +40,7 @@ const Product = ({post}) => {
           (<button
           className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold 
           text-[12px] p-1 px-3 uppercase 
-          hover:bg-gray-700
+         hover:bg-gray-700
           hover:text-white transition duration-300 ease-in"
           onClick={removeFromCart}>
             Remove Item
